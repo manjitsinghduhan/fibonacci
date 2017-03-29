@@ -17,15 +17,10 @@
 *   @warning    None
 *   @remark     None
 *//***************************************************************************/
-
-
-
 int main(void)
 {
 	int num = 0;   //declared a number n for f(n)
-
-	setbuf(stdout, NULL);
-
+	
 	printf("Enter the value of n in f(n) : ");
 	scanf("%d", &num);
 
@@ -37,7 +32,7 @@ int main(void)
 		scanf("%d", &num);
 	}
 
-	fibonacci(num);  // tempValue = f(n)
+	fibonacci(num);
 
 	return 0;
 }
